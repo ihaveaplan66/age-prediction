@@ -6,18 +6,23 @@ This project focuses on mastering data preprocessing and building machine learni
 - Filling missing values.
 - Encoding categorical variables.
 
-## Models
-### Linear Regression:
-- Metrics: MSE, Variance, R² score.
+## Models:
+- Lasso
+- Ridge
+- ElasticNet
+- GradientBoostingRegressor
+- RandomForestRegressor
 
-### Random Forest:
-- Metrics: MSE, R² score.
+### Metrics:
+- R² score
+- MSE
+- MAPE
 
 ## Dataset
 The dataset used in this project is the [Human Age Prediction Synthetic Dataset](https://www.kaggle.com/datasets/abdullah0a/human-age-prediction-synthetic-dataset) from Kaggle.
 
 ## Technologies Used
 - Python
-- Pandas, NumPy
+- Pandas
 - Scikit-learn
-- Matplotlib, Seaborn
+- Matplotlib
